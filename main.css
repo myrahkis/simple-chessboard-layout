@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    /* outline: 1px solid; */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 70px 40px;
+}
+
+.board {
+    display: flex;
+    flex-direction: column-reverse;
+    border: 1px solid black;
+    border-left: 0px;
+    border-bottom: 0px;
+    max-width: 641px;
+    /* padding: 0; */
+}
+
+.div-row {
+    display: flex;
+    flex-direction: row;
+    max-width: 641px;
+}
+
+.chess-sell {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    /* max-width: 9px; */
+}
+
+.sell-letters {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    max-width: 641px;
+    margin-left: 42px;
+}
+
+.sell-numbers {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-bottom: 0px;
+    float: left;
+}
+
+.div-num {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-top: 25px;
+    font-size: 26px;
+    min-width: 40px;
+    min-height: 80px;
+}
+
+.div-let {
+    text-align: center;
+    border-right: 1px solid;
+    padding-top: 5px;
+    font-size: 26px;
+    min-width: 80px;
+    min-height: 40px;
+}
